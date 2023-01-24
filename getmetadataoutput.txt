@@ -1,0 +1,44 @@
+{
+    "computerName": "webServer",
+    "osName": "Windows Server 2016 Datacenter",
+    "osVersion": "10.0.14393.5648",
+    "hyperVGeneration": "V1",
+    "vmAgent": {
+        "vmAgentVersion": "2.7.41491.1071",
+        "statuses": [
+            {
+                "code": "ProvisioningState/succeeded",
+                "level": "Info",
+                "displayStatus": "Ready",
+                "message": "GuestAgent is running and processing the extensions.",
+                "time": "2023-01-24T06:23:38.535Z"
+            }
+        ]
+    },
+    "disks": [
+        {
+            "name": "webServer_OsDisk_1_e16c64a5d3db4965adcba7954eae384f",
+            "statuses": [
+                {
+                    "code": "ProvisioningState/succeeded",
+                    "level": "Info",
+                    "displayStatus": "Provisioning succeeded",
+                    "time": "2023-01-24T05:51:58.343324Z"
+                }
+            ]
+        }
+    ],
+    "statuses": [
+        {
+            "code": "ProvisioningState/succeeded",
+            "level": "Info",
+            "displayStatus": "Provisioning succeeded",
+            "time": "2023-01-24T05:52:32.89034Z"
+        },
+        {
+            "code": "PowerState/running",
+            "level": "Info",
+            "displayStatus": "VM running"
+        }
+    ]
+}
